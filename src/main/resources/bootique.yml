@@ -1,0 +1,21 @@
+log:
+  level: all
+  loggers:
+    io.bootique.logback.demo.info:
+      level: info
+    io.bootique.logback.demo.debug:
+      level: debug
+    io.bootique.logback.demo.trace:
+      level: trace
+    io.bootique.logback.demo.warn:
+      level: warn
+    io.bootique.logback.demo.error:
+      level: error
+
+  appenders:
+    - type: file
+      logFormat: '%c{20}: %m%n'
+      file: target/logback/demo.log
+    - type: console
+      logFormat: '[%p] %c{0}: %m%n'
+      target: stderr
