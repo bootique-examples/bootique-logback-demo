@@ -14,16 +14,16 @@ cd bootique-logback-demo
 mvn package
 ```
 
-Enter the following (with -m prefix) to launch the app with all commands in Maven:
+Enter the following command to launch the app with all commands:
 
 ```bash
-java -jar target/bootique-logback-demo-1.0-SNAPSHOT.jar -m --config=classpath:bootique.yml
+java -jar target/bootique-logback-demo-1.0-SNAPSHOT.jar -m
 ```
 
-List of the prefixes to lounch different commands:
+List of available options:
 
 ```
--m - runa main Commnad with all other commands (Debug, Error, Info, Trace, Warn)
+-m - run main Commnad with all other commands (Debug, Error, Info, Trace, Warn)
 -d - run only DebugCommand. You will see logs under the DEBUG level such as: debug, info, warn and error
 -e - run only ErrorCommand. You will see logs under the ERROR only error
 -i - run only InfoCommand. You will see logs under the INFO level such as: info, warn and error
@@ -31,4 +31,4 @@ List of the prefixes to lounch different commands:
 -w - run only WarnCommand. You will see logs under the WARN level such as: iwarn and error
 ```
 
-After lounch you can see logs in terminal or igit initn logfile: target/logback/demo.log
+After launch you can see logs in terminal or find them in a logfile `target/logback/demo.log`

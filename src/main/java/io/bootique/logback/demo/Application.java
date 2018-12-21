@@ -25,6 +25,7 @@ public class Application implements Module {
     @Override
     public void configure(Binder binder) {
         BQCoreModule.extend(binder).addCommand(MainCommand.class)
+                .addConfig("classpath:bootique.yml")
                 .addCommand(InfoCommand.class)
                 .addCommand(WarnCommand.class)
                 .addCommand(DebugCommand.class)
