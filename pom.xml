@@ -12,7 +12,7 @@
 
     <groupId>com.bootique.logback.demo</groupId>
     <artifactId>bootique-logback-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0</version>
 
     <properties>
         <main.class>io.bootique.logback.demo.Application</main.class>
@@ -23,7 +23,7 @@
             <dependency>
                 <groupId>io.bootique.bom</groupId>
                 <artifactId>bootique-bom</artifactId>
-                <version>1.0.RC1</version>
+                <version>2.0-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
