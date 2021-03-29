@@ -1,3 +1,4 @@
+[![verify](https://github.com/bootique-examples/bootique-logback-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-logback-demo/actions/workflows/verify.yml)
 # bootique-logback-demo
 
 Simple [Bootique](http://bootique.io) app demonstrating the Bootique Logback Module.
